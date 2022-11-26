@@ -1,0 +1,26 @@
+.header__logo {
+  /* border: 2px red solid; */
+
+  flex-grow: 2;
+
+  display: block;
+  width: 176px;
+  height: 52px;
+  background-image: url(/images/logo.svg);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  flex-basis: fit-content;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 425px) {
+
+  .header__logo {
+    width: 142px;
+    min-width: 80px;
+  height: 42px
+  }
+
+}

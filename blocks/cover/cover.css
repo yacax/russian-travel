@@ -1,0 +1,41 @@
+.cover {
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/cover-background_xl.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 0 48px 60px 48px;
+    width: calc(100% - 2 * 48px);
+    height: 58vw;
+    flex-grow: 2;
+   
+    
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        margin: 99px 0 0 0;
+        height: 62.5vw;
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 44px 0 0 0;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+margin: 27px 0 0 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.intro__text {
+    
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+/* or 26px */
+
+
+color: #FFFFFF;
+
+max-width: 70%;
+
+margin-top: 42px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        max-width: 74%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        max-width: 100%;
+        margin-top: 45px;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .intro__text {
+        max-width: 100%;
+        margin-top: 40px;
+
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+    }
+
+
+}
