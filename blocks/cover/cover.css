@@ -1,5 +1,4 @@
 .cover {
-
     display: flex;
     flex-direction: column;
     position: relative;
@@ -8,13 +7,9 @@
     background-size: cover;
     margin: 0 48px 60px 48px;
     width: calc(100% - 2 * 48px);
-    /* min-height: 58vw; */
     min-height: 11%;
     flex-grow: 2;
     align-items: center;
-
-
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,10 +18,7 @@
         margin: 99px 0 0 0;
         min-height: 62.5vw;
         background-image: url(/images/cover-background_l.jpg);
-
     }
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -34,8 +26,6 @@
         margin: 41px 0 0 0;
         background-image: url(/images/cover-background_m.jpg);
     }
-
-
 }
 
 @media screen and (max-width: 425px) {

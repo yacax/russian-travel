@@ -1,9 +1,7 @@
 .footer {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  /* justify-content: flex-end; */
   margin: 0;
   padding: 34px 48px 23px 48px;
   gap: 18px;
@@ -21,8 +19,6 @@
     padding: 90px 23px 23px;
   }
 }
-
-
 
 @media screen and (max-width: 640px) {
   .footer {

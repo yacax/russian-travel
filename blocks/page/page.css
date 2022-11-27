@@ -26,8 +26,6 @@
 }
 
 .page {
-  /* border: rgb(0, 255, 85) solid 2px; */
-
   display: flex;
   flex-direction: column;
   position: relative;
@@ -50,26 +48,3 @@
 
   text-rendering: optimizeLegibility;
 }
-
-/* @media screen and (max-width: 1024px) {
-
-  .page {
-  max-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .page {
-    max-width: 768px;
-    }
-
-} 
-
-@media screen and (max-width: 425px) {
-
-  .page {
-    max-width: 425px;
-    }
-
-} */

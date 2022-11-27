@@ -1,9 +1,5 @@
 .place__paragraph {
-    
-    /* border: rgb(94, 255, 0) 1px solid; */
     position: relative;
-    /* grid-area: place__paragraph; */
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,66 +7,39 @@
     line-height: 163%;
     margin: 0;
     padding: 0;
-
-    /* or 29px */
-
-    /* grid-column: 2 / span 2;
-grid-column-end: five;
-grid-row-start: 2;
- */
-
-
     color: #FFFFFF;
 }
 
 .place__paragraph:nth-of-type(n+2) {
-
-    /* margin-top: -26px; */
     margin-top: -80px;
-
 }
 
 
 @media screen and (max-width: 1024px) {
-    /* .place__paragraph {
-
-        
-
-    } */
-
 
     .place__paragraph:nth-of-type(n+2) {
-        margin-top: -30px;;
-
+        margin-top: -30px;
     }
-
 }
 
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
-
     }
 
     .place__paragraph:nth-of-type(n+2) {
         margin-top: -23px;
-
     }
 
 }
 
 @media screen and (max-width: 425px) {
     .place__paragraph {
-
         padding: 0 16px;
-
     }
-
 
     .place__paragraph:nth-of-type(n+2) {
         margin-top: -8px;
-
     }
-
 }

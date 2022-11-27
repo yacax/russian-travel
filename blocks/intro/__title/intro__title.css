@@ -1,46 +1,21 @@
 .intro__title {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 54px;
-line-height: 46px;
-/* identical to box height, or 107% */
-margin: 0;
-padding: 0;
-
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 46px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .intro__title {
-       
-    }
-
-
-}
-
-@media screen and (max-width: 768px) {
-    .intro__title {
-        
-    }
-
-
-} */
-
 
 @media screen and (max-width: 425px) {
     .intro__title {
         font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 35px;
-/* or 109% */
-
-
-color: #FFFFFF;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        color: #FFFFFF;
     }
-
-
 }

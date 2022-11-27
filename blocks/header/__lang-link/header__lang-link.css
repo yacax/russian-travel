@@ -10,20 +10,14 @@
     padding: 0;
 }
 
-
-
 .header__lang-link:first-of-type {
     border-bottom: #FFF solid 2px;
 }
-
-
-
-
 
 @media screen and (max-width: 425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        margin-bottom: 7px;    }
-
+        margin-bottom: 7px;
+    }
 }

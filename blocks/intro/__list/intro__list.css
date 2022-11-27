@@ -1,38 +1,19 @@
 .intro__list {
-    
-    list-style: none;
-    /* text-decoration: none; */
+    list-style: none;    
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 18px;
-/* or 150% */
-
-
-color: #FFFFFF;
-margin-top: 33px;
-margin-bottom: 0;
-padding: 0;
-max-width: 74%;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 74%;
 }
 
-/* @media screen and (max-width: 1024px) {
-        .intro__list {
-
-        }
-
-
-} */
-
-/* @media screen and (max-width: 768px) {} */
-
 @media screen and (max-width: 425px) {
-
-  .intro__list {
-max-width: 100%;
-        }    
-
-
+    .intro__list {
+        max-width: 100%;
+    }
 }
