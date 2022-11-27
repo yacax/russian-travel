@@ -7,9 +7,12 @@ line-height: 22px;
 margin: 0;
 /* identical to box height, or 122% */
 
-text-decoration-line: underline;
+text-decoration-line: none;
+border-bottom: 1px #fff solid;
 
 color: #FFFFFF;
+
+transition: opacity .2s ease;
 }
 
 @media screen and (max-width: 425px) {
@@ -21,4 +24,8 @@ color: #FFFFFF;
     }
 
 
+}
+
+.place__link:hover {
+    opacity: .8;
 }

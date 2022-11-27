@@ -28,12 +28,14 @@
 .page {
   /* border: rgb(0, 255, 85) solid 2px; */
 
-  /* display: flex;
-  flex-direction: column; */
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
   font-family: 'Inter', 'Arial', sans-serif;
   width: 100%; 
   max-width: 1280px;
+  min-width: 280px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -2,23 +2,27 @@
 
     display: flex;
     flex-direction: column;
+    position: relative;
     background-image: url(/images/cover-background_xl.jpg);
     background-position: center center;
     background-size: cover;
     margin: 0 48px 60px 48px;
     width: calc(100% - 2 * 48px);
-    height: 58vw;
+    /* min-height: 58vw; */
+    min-height: 11%;
     flex-grow: 2;
-   
-    
-   
+    align-items: center;
+
+
+
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
         margin: 99px 0 0 0;
-        height: 62.5vw;
+        min-height: 62.5vw;
+        background-image: url(/images/cover-background_l.jpg);
 
     }
 
@@ -27,7 +31,8 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin: 44px 0 0 0;
+        margin: 41px 0 0 0;
+        background-image: url(/images/cover-background_m.jpg);
     }
 
 
@@ -35,7 +40,8 @@
 
 @media screen and (max-width: 425px) {
     .cover {
-margin: 27px 0 0 0;
+        margin: 27px 0 0 0;
         width: 100%;
+        background-image: url(/images/cover-background_s.jpg);
     }
 }

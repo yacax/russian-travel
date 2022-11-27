@@ -35,7 +35,7 @@
 
         grid-template-columns: 47.5% auto;
         column-gap: 31px;
-        padding-top: 75px;
+        padding-top: 80px;
         
     }
 
@@ -45,8 +45,8 @@
 @media screen and (max-width: 768px) {
 .place {
    row-gap: 46px;
-   column-gap: 28px;
-   padding-top: 73px;
+   column-gap: 25px;
+   padding-top: 71px;
 
 }
 

@@ -1,5 +1,4 @@
 .header__lang-link {
-    /* border: solid red 2px; */
     color: #FFF;
     font-style: normal;
     font-weight: 400;
@@ -11,12 +10,20 @@
     padding: 0;
 }
 
-@media screen and (max-width: 425px) {
 
+
+.header__lang-link:first-of-type {
+    border-bottom: #FFF solid 2px;
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        margin-bottom: 7px;
-    }
+        margin-bottom: 7px;    }
 
 }

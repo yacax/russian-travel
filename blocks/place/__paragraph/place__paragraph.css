@@ -1,6 +1,6 @@
 .place__paragraph {
     
-    border: rgb(94, 255, 0) 1px solid;
+    /* border: rgb(94, 255, 0) 1px solid; */
     position: relative;
     /* grid-area: place__paragraph; */
 
@@ -40,7 +40,7 @@ grid-row-start: 2;
 
 
     .place__paragraph:nth-of-type(n+2) {
-        margin-top: -8px;
+        margin-top: -30px;;
 
     }
 
@@ -54,7 +54,7 @@ grid-row-start: 2;
     }
 
     .place__paragraph:nth-of-type(n+2) {
-        margin-top: -22px;
+        margin-top: -23px;
 
     }
 

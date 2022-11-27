@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;    
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0 148px;
 
 }
@@ -32,7 +32,7 @@
 /* @media screen and (max-width: 425px) {
 
 .lead {
-    padding: 0 16px;    
+
 }
 
 }  */

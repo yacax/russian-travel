@@ -24,14 +24,15 @@ position: relative;
 }
 
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__subtitle {
-        max-width: 91%;
+        max-width: 60%;
+        /* max-width: 91%;
         font-size: 14px;
         line-height: 16px;
-        margin: 16px auto;
+        margin: 16px auto; */
     }
-} */
+}
 
 @media screen and (max-width: 425px) {
     .cover__subtitle {

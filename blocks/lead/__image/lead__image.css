@@ -25,6 +25,7 @@
 
     .lead__image {
       margin-top: 57px;
+      background-image: url(/images/lead__image_l.jpg);
       }
   
   }
@@ -33,6 +34,7 @@
   
     .lead__image {
         margin-top: 55px;
+        background-image: url(/images/lead__image_m.jpg);
         
     
   }
@@ -55,6 +57,7 @@
     
     .lead__image {
         margin-top: 40px;
+        background-image: url(/images/lead__image_s.jpg);
     }
    
   }
