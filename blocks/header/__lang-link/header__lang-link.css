@@ -8,6 +8,11 @@
     margin: 0;
     margin-bottom: 5px;
     padding: 0;
+    transition: background .2s ease-in-out;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 .header__lang-link:first-of-type {

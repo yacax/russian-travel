@@ -7,8 +7,8 @@
     grid-template-rows: min-content min-content max-content;
     grid-template-areas:
         "place__title place__website"
-        "place__image place__paragraph"
-        "place__image place__paragraph";
+        "place__image place__paragraphs"
+        "place__image place__paragraphs";
     column-gap: 40px;
     row-gap: 48px;
 }
@@ -37,7 +37,8 @@
         grid-template-areas:
             "place__title"
             "place__website"
-            "place__image";
+            "place__image"
+            "place__paragraphs";
         padding-top: 49px;
         row-gap: 32px;
     }
