@@ -1,7 +1,7 @@
 .lead__image {
     width: 100%;
     padding-bottom: 62.5%;
-    background-image: url(/images/lead__image_xl.jpg);
+    background-image: url("../../../images/lead__image_xl.jpg");
     background-size: cover;
     background-position: center;
     margin-top: 64px;
@@ -10,20 +10,20 @@
 @media screen and (max-width: 1024px) {
     .lead__image {
         margin-top: 57px;
-        background-image: url(/images/lead__image_l.jpg);
+        background-image: url("../../../images/lead__image_l.jpg");
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__image {
         margin-top: 55px;
-        background-image: url(/images/lead__image_m.jpg);
+        background-image: url("../../../images/lead__image_m.jpg");
     }
 }
 
 @media screen and (max-width: 425px) {
     .lead__image {
         margin-top: 40px;
-        background-image: url(/images/lead__image_s.jpg);
+        background-image: url("../../../images/lead__image_s.jpg");
     }
 }
