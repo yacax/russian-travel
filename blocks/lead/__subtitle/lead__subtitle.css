@@ -7,6 +7,7 @@
   text-align: center;
   margin: 32px auto 0;
   color: #FFF;
+  max-width: 640px;
 }
 
 @media screen and (max-width: 1024px) {

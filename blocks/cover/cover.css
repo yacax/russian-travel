@@ -7,7 +7,7 @@
     background-size: cover;
     margin: 0 48px 60px 48px;
     width: calc(100% - 2 * 48px);
-    min-height: 11%;
+    min-height: 11.15%;
     flex-grow: 2;
     align-items: center;
 }

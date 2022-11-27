@@ -8,6 +8,7 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 250px auto 0 auto;
+    max-width: 560px;
 }
 
 
@@ -20,8 +21,6 @@
 @media screen and (max-width: 768px) {
     .cover__title {
         margin: 115px auto 0 auto;
-
-
     }
 }
 
