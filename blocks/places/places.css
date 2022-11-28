@@ -3,9 +3,8 @@
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    padding: 0 148px;
-    margin: 0;
-    padding-bottom: 92px;
+    padding: 0 148px 92px;
+    margin: 0;   
 }
 
 @media screen and (max-width: 1024px) {
