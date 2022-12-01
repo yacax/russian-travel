@@ -17,7 +17,5 @@
 }
 
 .cover__titles:hover::before {
-  content: '';
-  background-color: #2A2C2F;
   opacity: 0.8;
 }
