@@ -3,27 +3,26 @@
   flex-direction: row;
   align-items: flex-start;
   margin: 0;
-  padding: 34px 48px 23px 48px;
-  gap: 18px;
+  padding: 34px 48px 23px 48px;  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .footer {
     padding: 91px 48px 23px 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer {
-    gap: 19px;
-    padding: 90px 23px 23px;
+    /* gap: 19px; */
+    padding: 87px 23px 23px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    padding: 68px 16px 24px 16px;
+    padding: 64px 16px 24px 16px;
     gap: 32px;
   }
 }

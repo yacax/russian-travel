@@ -1,0 +1,23 @@
+.cover__titles {
+  grid-area: baikal;
+  z-index: 1;
+}
+
+.cover__titles::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cover__titles:hover::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: 0.8;
+}

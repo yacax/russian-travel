@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  
-  font-family: 'Inter', Helvetica, Arial, 'DejaVu Sans', sans-serif;
+
+  font-family: 'Inter', Arial, sans-serif;
   width: 100%;
   max-width: 1280px;
   min-width: 300px;

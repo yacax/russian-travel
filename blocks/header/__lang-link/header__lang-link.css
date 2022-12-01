@@ -1,29 +1,24 @@
 .header__lang-link {
-    font-family: 'Inter', Helvetica, Arial, 'DejaVu Sans', sans-serif;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
-    margin: 0;
-    margin-bottom: 5px;
-    padding: 0;
-    transition: background .2s ease-in-out;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  margin: 0;
+
+  transition: background .2s ease-in-out;
 }
 
 .header__lang-link:hover {
-    opacity: .8;
-}
-
-.header__lang-link:first-of-type {
-    border-bottom: #FFF solid 2px;
+  opacity: .8;
 }
 
 @media screen and (max-width: 425px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-        margin-bottom: 7px;
-    }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    /* margin-bottom: 7px; */
+  }
 }

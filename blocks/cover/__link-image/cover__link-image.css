@@ -1,0 +1,23 @@
+.cover__link-image {
+  grid-area: baikal;
+  padding-bottom: 62.5%;
+  background: center/cover url("../../../images/cover-background_xl.jpg");
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link-image {
+    background-image: url("../../../images/cover-background_l.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link-image {
+    background-image: url("../../../images/cover-background_m.jpg");
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link-image {
+    background-image: url("../../../images/cover-background_s.jpg");
+  }
+}

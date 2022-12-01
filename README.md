@@ -11,7 +11,19 @@
 Ссылка на git pages:
 https://yacax.github.io/russian-travel/
 
+
+## Технологии и техники использованные в проекте ##
+
+Flash Box & Grid Layout
+Media queries
+Fonts import & optimization
+Images optimization
+
+Git
+Figma
+GitHub & GitPages
+
 ## Планы по доработке проекта ##
 
-1. Разобраться с автоматической высотой контейнеров для фоновых изображений. 
-2. Сделать нормальные переключатели языков.
+1. Сделать версию на втором языке.
+2. Настроить языковую панель.
